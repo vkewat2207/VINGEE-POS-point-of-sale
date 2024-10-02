@@ -1,3 +1,9 @@
+Live Website 
+https://vingee-pos-point-of-sale-zpq0.onrender.com
+
+
+After creating invoice it will redirect you to bill page in that in action tab you will see eye icon click on that you will get invoice and can print it
+
 Building simple Point of Sale system with Node.js & React.js
 #
 react and react-redux
