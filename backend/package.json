@@ -1,0 +1,29 @@
+{
+  "name": "vingee-pos",
+  "version": "1.0.0",
+  "description": "VINGEE-POS",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix ./client",
+    "dev": "concurrently \"npm start\" \"npm run client\"",
+    "seed": "node seeder.js"
+  },
+  "author": "Vinod Kewat",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "colors": "^1.4.0",
+    "concurrently": "^9.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "mongoose": "^8.7.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.7",
+    "redux": "^5.0.1",
+    "seeder": "^0.2.4",
+    "spinner": "^0.3.4"
+  }
+}
